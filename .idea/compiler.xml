@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="onlineshop_common" />
+        <module name="onlineshop_model" />
+        <module name="onlineshop_order" />
+        <module name="onlineshop_shopping_car" />
+        <module name="onlineshop_user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.8" />
+      <module name="model" target="1.8" />
+      <module name="onlineshop_eureka" target="1.8" />
+      <module name="onlineshop_shoppingcar" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
